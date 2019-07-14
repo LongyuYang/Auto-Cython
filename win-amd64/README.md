@@ -15,7 +15,7 @@ pip install Cython clang==3.7
 ## Generate Cython Codes
 Put your `.h` file to the directory `include` and your `.lib` file (or your `.cpp` file) to the directory `lib`. Then run:
 ```bash
-python C2py.py --head_name='include/YOUR_API_NAME.h'
+python C2py.py --head_path='include/YOUR_API_NAME.h'
 ```
 
 ## Build Python Extension
