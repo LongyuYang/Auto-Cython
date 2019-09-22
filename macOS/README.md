@@ -22,4 +22,5 @@ Replace `vector` by your API name in `setup.py`. Then run:
 ```bash
 python setup.py build_ext  --inplace 
 ```
-This will generate Python extension `.so`. If you want to generate a Python API on other Python versions, simply replace the path of your python.
+This will generate Python extension `.so`. For how to use the Python API, please refer to the `.pyx` file. 
+If you want to generate a Python API on other Python versions, simply replace the path of your python.
