@@ -23,7 +23,7 @@ Replace `vector` by your API name in `setup.py`. Then run:
 ```bash
 python setup.py build_ext --compiler=msvc --plat-name=win-amd64
 ```
-This will generate Python extension `.pyd`. Don't forget to put `.dll` to the same path of `.pyd` file when using the generated Python API.
+This will generate Python extension `.pyd`. If you use dynamic libraries, don't forget to put your `.dll` to the same path of `.pyd` file when using the generated Python API.
 For how to use the Python API, please refer to the `.pyx` file.
 If you want to generate a Python API on other Python versions, simply replace the path of your python, for instance:
 ```bash
